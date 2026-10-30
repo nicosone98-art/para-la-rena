@@ -144,7 +144,7 @@
     var gate=document.getElementById('gate-view'),ask=document.getElementById('ask-view');
     var inp=document.getElementById('code'),ubtn=document.getElementById('unlockBtn'),gerr=document.getElementById('gate-err');
     function unlock(){
-      if((inp.value||'').trim()==='2410'){gate.hidden=true;ask.hidden=false;}
+      if((inp.value||'').trim()==='2911'){gate.hidden=true;ask.hidden=false;}
       else{gerr.hidden=false;inp.classList.remove('shake');void inp.offsetWidth;inp.classList.add('shake');inp.value='';inp.focus();}
     }
     ubtn.addEventListener('click',unlock);
